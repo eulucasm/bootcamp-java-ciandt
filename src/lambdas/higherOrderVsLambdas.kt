@@ -10,5 +10,6 @@ fun main(args: Array<String>) {
     val updatedList = myStringList.filter { it.length > 3 }.sortedBy{it}
     println(updatedList)
 
-    view.onClickListener{ println("in Click")} //exemplo ilustrativo
+    //view.onClickListener{ println("in Click")} //exemplo ilustrativo
+
 }
