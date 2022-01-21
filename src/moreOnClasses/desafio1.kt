@@ -22,7 +22,7 @@ fun main(args: Array<String>){
     StudentRegistry.addStudent(barbara)
 
     StudentRegistry.allStudents.forEach{
-        println("${it.firstName} ${it.lastName}" )
+        println("${it.firstName} ${it.lastname}" )
     }
 
 }
