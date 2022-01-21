@@ -1,6 +1,6 @@
 package propertiesAndMethods
 
-class Course (var className: String){
+class Course(var className: Map<String, String>){
     lateinit var teacherName: String
 
     fun setTeacher(teacher: String){
