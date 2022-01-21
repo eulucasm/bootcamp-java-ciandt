@@ -1,0 +1,4 @@
+package propertiesAndMethods
+
+class visibility {
+}
